@@ -1,0 +1,33 @@
+body {
+  /*background: #686556;*/
+  background-image: url(https://siodmepoty.com/hotlink/ojs/grass.png);
+  cursor: url(https://siodmepoty.com/hotlink/ojs/zzz-white.png), auto !important;
+}
+/* grass cut out into seemless pattern from
+https://multiverselabyrinth.tumblr.com */
+
+.tree {
+  font-size: 30px;
+}
+.entry {
+  /* cursor over forest */
+  cursor: url(https://siodmepoty.com/hotlink/ojs/axe-emoji.png), auto !important;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-board {
+  cursor: url(https://siodmepoty.com/hotlink/ojs/zzz-white.png), auto !important;
+  /* width: 100%; */
+  /* height: 95vh; */
+  /* width: max-content; */
+  /* margin: 0 auto; */
+  margin-top: 100px;
+}

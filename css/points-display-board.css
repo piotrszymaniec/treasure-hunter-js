@@ -1,0 +1,44 @@
+.points-display-board {
+  /* font-family: '04b03',Lato, LatoExtended, sans-serif; */
+  font-family: "Share Tech Mono", monospace;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  width: 200px;
+  height: 130px;
+  border: 4px rgb(41, 6, 6);
+  border-style: double;
+  border-radius: 5px;
+  background-color: rgb(75, 53, 27);
+  color: white;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.items-gathered-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#diamonds-display::before {
+  content: "💎";
+  margin-right: 5px;
+}
+
+#coin-bags-display::before {
+  content: "💰";
+  margin-right: 5px;
+}
+
+#gift-boxes-display::before {
+  content: "🎁";
+  margin-right: 5px;
+}
+
+.coin-bags {
+}
+.picked {
+}
+.diamonds {
+}

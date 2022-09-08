@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Treasure Hunter</title>
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <link type="text/css" rel="stylesheet" href="css/effects.css" />
+    <link type="text/css" rel="stylesheet" href="css/message-for-player.css" />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/points-display-board.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="game-board">
+      <div class="entry flex-row"></div>
+    </div>
+    <div class="points-display-board">
+      <span class="display-board-title">
+        Points: <span id="points-gathered" data-points="0">0</span>
+      </span>
+      <span class="items-gathered-title">You have found:</span>
+      <span id="diamonds-display" class="picked">Diamonds: 0 x 30</span>
+      <span id="coin-bags-display" class="picked">Coin bags: 0 x 10</span>
+      <span id="gift-boxes-display" class="picked">Gift boxes: 0 x 10</span>
+    </div>
+    <div class="message-for-player"></div>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
