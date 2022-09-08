@@ -23,13 +23,3 @@ export const treasures = {
   }
 };
 
-// TODO: implement later with minus points
-// export const hazards = {
-//   list: [
-//     { fire: "🔥", msg: `You have burned yourself a bit.` },
-//     {
-//       lightning: "⚡",
-//       msg: `Phew it was just a small spark, not a real lightning.`
-//     }
-//   ]
-// };
