@@ -1,5 +1,5 @@
 function plantTrees(numberOfRows, treesInRow, parentNode) {
-  for(let i=1;i<=numberOfRows;i++) {
+  for(let row=1;row<=numberOfRows;row++) {
     const treeRow = document.createElement('div');
     treeRow.classList.add('flex-column');
     parentNode.append(treeRow);
