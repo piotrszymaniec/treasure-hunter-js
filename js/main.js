@@ -4,8 +4,8 @@ import { gameState, clearItemDisplay } from "./modules/game-state";
 import { addAllTreasures } from "./modules/generate-treasures";
 import { plantTrees } from "./modules/generate-trees";
 import {
-  NUMBER_OF_TREE_COLUMNS,
-  NUMBER_OF_TREES_IN_COLUMN,
+  NUMBER_OF_TREE_ROWS,
+  NUMBER_OF_TREES_IN_ROW,
   TREASURES_IN_GAME,
   TREASURE_GATHERING_EVENT_LISTENER_TYPE,
   PLAYER_WINNING_MESSAGE,
@@ -17,7 +17,7 @@ startGame();
 function startGame() {
   clearGameBoard();
   const forest = document.querySelector(".entry");
-  plantTrees(NUMBER_OF_TREE_COLUMNS, NUMBER_OF_TREES_IN_COLUMN, forest);
+  plantTrees(NUMBER_OF_TREE_ROWS, NUMBER_OF_TREES_IN_ROW, forest);
   hideTresuresInForest();
 }
 

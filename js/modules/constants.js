@@ -1,5 +1,5 @@
-export const NUMBER_OF_TREE_COLUMNS = 10;
-export const NUMBER_OF_TREES_IN_COLUMN = 7;
+export const NUMBER_OF_TREE_ROWS = 10;
+export const NUMBER_OF_TREES_IN_ROW = 7;
 
 export const DIAMOND_POINTS_MULTIPLIER = 30;
 export const COIN_BAG_POINTS_MULTIPLIER = 10;
