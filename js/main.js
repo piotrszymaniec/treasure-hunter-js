@@ -12,12 +12,12 @@ import {
   PLAYER_ENCOURAGING_MESSAGE
 } from "./modules/constants";
 
-startGame();
+startGame(NUMBER_OF_TREE_ROWS,NUMBER_OF_TREES_IN_ROW);
 
-function startGame() {
+function startGame(rows, treesInRow) {
   clearGameBoard();
   const forest = document.querySelector(".entry");
-  plantTrees(NUMBER_OF_TREE_ROWS, NUMBER_OF_TREES_IN_ROW, forest);
+  plantTrees(rows, treesInRow, forest);
   hideTresuresInForest();
 }
 
